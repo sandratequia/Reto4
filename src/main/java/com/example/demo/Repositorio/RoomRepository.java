@@ -33,4 +33,8 @@ public class RoomRepository {
     public Room save (Room room){
         return extensionesCrud.save(room);
     } 
+    
+    public void delete (Room room){
+        extensionesCrud.delete(room);
+    }
 }
